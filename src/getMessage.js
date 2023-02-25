@@ -127,7 +127,7 @@ function formatMessage(threadID, data) {
 						author: data.message_sender.id
 					};
 				default:
-					throw new Error(`Unknown admin text type: "${data.extensible_message_admin_text_type}", if this happens to you let me know when it happens. Please open an issue at https://github.com/ntkhang03/fb-chat-api/issues.`);
+					throw new Error(`Unknown admin text type: "${data.extensible_message_admin_text_type}", if this happens to you let me know when it happens. Please open an issue at https://github.com/szbartnik/unofficial-fb-chat-api/issues.`);
 			}
 		case "UserMessage":
 			return {
@@ -176,9 +176,9 @@ function formatMessage(threadID, data) {
 				timestamp: data.timestamp_precise
 			};
 		default:
-			throw new Error(`Unknown message type: "${data.__typename}", if this happens to you let me know when it happens. Please open an issue at https://github.com/ntkhang03/fb-chat-api/issues.`);
+			throw new Error(`Unknown message type: "${data.__typename}", if this happens to you let me know when it happens. Please open an issue at https://github.com/szbartnik/unofficial-fb-chat-api/issues.`);
 		// If this happens to you let me know when it happens
-		// Please open an issue at https://github.com/ntkhang03/fb-chat-api/issues.
+		// Please open an issue at https://github.com/szbartnik/unofficial-fb-chat-api/issues.
 		// return Object.assign({ type: "unknown", data });
 	}
 }

@@ -253,7 +253,7 @@ function parseDelta(defaultFuncs, api, ctx, globalCallback, v) {
           fmtMsg = utils.formatDeltaMessage(v);
         } catch (err) {
           return globalCallback({
-            error: "Problem parsing message object. Please open an issue at https://github.com/ntkhang03/fb-chat-api/issues.",
+            error: "Problem parsing message object. Please open an issue at https://github.com/szbartnik/unofficial-fb-chat-api/issues.",
             detail: err,
             res: v,
             type: "parse_error"
@@ -515,7 +515,7 @@ function parseDelta(defaultFuncs, api, ctx, globalCallback, v) {
       }
       catch (err) {
         return globalCallback({
-          error: "Problem parsing message object. Please open an issue at https://github.com/ntkhang03/fb-chat-api/issues.",
+          error: "Problem parsing message object. Please open an issue at https://github.com/szbartnik/unofficial-fb-chat-api/issues.",
           detail: err,
           res: v.delta,
           type: "parse_error"
@@ -535,7 +535,7 @@ function parseDelta(defaultFuncs, api, ctx, globalCallback, v) {
           }
           catch (err) {
             return globalCallback({
-              error: "Problem parsing message object. Please open an issue at https://github.com/ntkhang03/fb-chat-api/issues.",
+              error: "Problem parsing message object. Please open an issue at https://github.com/szbartnik/unofficial-fb-chat-api/issues.",
               detail: err,
               res: v.delta,
               type: "parse_error"
@@ -681,7 +681,7 @@ function parseDelta(defaultFuncs, api, ctx, globalCallback, v) {
         formattedEvent = utils.formatDeltaEvent(v.delta);
       } catch (err) {
         return globalCallback({
-          error: "Problem parsing message object. Please open an issue at https://github.com/ntkhang03/fb-chat-api/issues.",
+          error: "Problem parsing message object. Please open an issue at https://github.com/szbartnik/unofficial-fb-chat-api/issues.",
           detail: err,
           res: v.delta,
           type: "parse_error"
