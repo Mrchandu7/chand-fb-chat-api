@@ -1,7 +1,7 @@
 {
-  "name": "unofficial-fb-chat-api",
-  "version": "1.0.0",
-  "description": "A Facebook chat API that doesn't rely on XMPP",
+  "name": "chand-fb-chat-api",
+  "version": "1.0.1",
+  "description": "A Facebook chat api by Mr Chand",
   "scripts": {
     "test": "mocha",
     "lint": "./node_modules/.bin/eslint **.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/szbartnik/unofficial-fb-chat-api.git"
+    "url": "https://github.com/Mrchandu7/chand-fb-chat-api.git"
   },
   "keywords": [
     "facebook",
@@ -19,9 +19,9 @@
     "fb-chat-api"
   ],
   "bugs": {
-    "url": "https://github.com/szbartnik/unofficial-fb-chat-api/issues"
+    "url": "https://github.com/Mrchandu7/chand-fb-chat-api/issues"
   },
-  "author": "Avery, David, Maude, Benjamin, UIRI, NTKhang (rebuild)",
+  "author": "Chand",
   "license": "MIT",
   "dependencies": {
     "bluebird": "^2.11.0",
